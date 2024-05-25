@@ -271,6 +271,9 @@
 }
 
 /*** Service ***/
+.service h2{
+  font-size: 1.8rem;
+}
 .service-item {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
   transition: 0.5s;
