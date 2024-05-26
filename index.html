@@ -124,7 +124,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
             <a href="index.html" class="nav-item nav-link active">Trang chủ</a>
-            <a href="about.html" class="nav-item nav-link">Về chúng tôi</a>
+            <a href="#about" class="nav-item nav-link">Về chúng tôi</a>
             <a href="#service" class="nav-item nav-link">Dịch vụ</a>
             <a href="#destination" class="nav-item nav-link">Điểm đến</a>
             <div class="nav-item dropdown">
@@ -137,12 +137,14 @@
               <div class="dropdown-menu m-0">
                 <a href="destination.html" class="dropdown-item">Destination</a>
                 <a href="#booking" class="dropdown-item">Đặt vé</a>
-                <a href="team.html" class="dropdown-item">Travel Guides</a>
+                <a href="#travel_guides" class="dropdown-item"
+                  >Đội ngũ hướng dẫn viên</a
+                >
                 <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                 <a href="404.html" class="dropdown-item">404 Page</a>
               </div>
             </div>
-            <a href="contact.html" class="nav-item nav-link">Liên hệ</a>
+            <a href="#contact" class="nav-item nav-link">Liên hệ</a>
           </div>
           <a href="./login.html" class="btn btn-primary rounded-pill py-2 px-4"
             >Đăng Kí</a
@@ -164,7 +166,7 @@
                 <input
                   class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5"
                   type="text"
-                  placeholder="Eg: Thailand"
+                  placeholder="Vi Du: Thua Thien Hue"
                 />
                 <button
                   type="button"
@@ -199,7 +201,7 @@
               />
             </div>
           </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s" id="about">
             <h2 class="section-title bg-white text-start text-primary pe-3">
               Về chúng tôi
             </h2>
@@ -655,7 +657,7 @@
                 >Tìm Hiểu Thêm</a
               >
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" id="booking">
               <h1 class="text-white mb-4">Đặt chuyến ngay</h1>
               <form>
                 <div class="row g-3">
@@ -809,7 +811,7 @@
     <!-- Process Start -->
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl py-5" id="travel_guides">
       <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h2 class="section-title bg-white text-center text-primary px-3">
@@ -964,7 +966,7 @@
           <div class="testimonial-item bg-white text-center border p-4">
             <img
               class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src="img/testimonial-3.jpg"
+              src="img/tuan.jpg"
               style="width: 80px; height: 80px"
             />
             <h2 class="mb-0">Quang Tuấn</h2>
@@ -977,14 +979,14 @@
           <div class="testimonial-item bg-white text-center border p-4">
             <img
               class="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-              src="img/testimonial-4.jpg"
+              src="img/lac.jpg"
               style="width: 80px; height: 80px"
             />
-            <h2 class="mb-0">Thái Bảo</h2>
-            <p>Đà Nẵng, Việt Nam</p>
+            <h2 class="mb-0">Nhật Hưng</h2>
+            <p>Quảng Trị, Việt Nam</p>
             <p class="mt-2 mb-0">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-              amet diam et eos. Clita erat ipsum et lorem et sit.
+              Chúng tôi rất hài lòng về dịch vụ du lịch ở đây, hướng dẫn viên
+              rất có kinh nghiệm và kiến thức!
             </p>
           </div>
         </div>
@@ -995,6 +997,7 @@
     <!-- Footer Start -->
     <div
       class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      id="contact"
       data-wow-delay="0.1s"
     >
       <div class="container py-5">
@@ -1081,18 +1084,19 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <h4 class="text-white mb-3">Newsletter</h4>
-            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <p>Chúng tôi hân hạnh được phục vụ quý khách!</p>
             <div class="position-relative mx-auto" style="max-width: 400px">
               <input
                 class="form-control border-primary w-100 py-3 ps-4 pe-5"
                 type="text"
                 placeholder="Your email"
+                style="border-radius: 8px"
               />
               <button
                 type="button"
                 class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
               >
-                SignUp
+                <a href="login.html" style="color: #fff;">SignUp</a>
               </button>
             </div>
           </div>
@@ -1102,7 +1106,7 @@
         <div class="copyright">
           <div class="row">
             <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a class="border-bottom" href="#">Your Site Name</a>, All
+              &copy; <a class="border-bottom" href="#">TTBH Travel</a>, All
               Right Reserved. Designed By
               <a class="border-bottom" href="#">Thai Bao</a>
             </div>
