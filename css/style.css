@@ -271,7 +271,7 @@
 }
 
 /*** Service ***/
-.service h2{
+.service h2 {
   font-size: 1.8rem;
 }
 .service-item {
@@ -307,6 +307,8 @@
 
 .package-item img {
   transition: 0.5s;
+  object-fit: cover;
+  height: 25em;
 }
 
 .package-item:hover img {
@@ -320,6 +322,13 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.booking .desc {
+  background-image: linear-gradient(to right, #36b632, #ddec52);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 /*** Team ***/
@@ -363,7 +372,7 @@
   z-index: 1;
 }
 
-.testimonial-carousel::after {
+.testimonial-caarousel::after {
   position: absolute;
   content: "";
   top: 0;
