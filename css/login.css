@@ -49,8 +49,7 @@ body {
   width: 100%;
   background: #000;
 }
-.background {
-  background: url(/Web_Travel/img/login.jpg) no-repeat;
+.background img {
   background-position: center;
   background-size: cover;
   height: 100vh;
