@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* loader */
@@ -41,7 +41,7 @@
     transform: rotate(0turn);
   }
   to {
-    transform: rotate(1turn);
+    transform: rotate(1turn); 
   }
 }
 body {
@@ -68,6 +68,15 @@ body {
   align-items: center;
   z-index: 100;
 }
+
+.navbar .logo {
+display: flex;
+}
+
+.navbar .logo img {
+  
+}
+
 .navbar a {
   position: relative;
   font-size: 16px;
@@ -196,7 +205,7 @@ body {
 
 .btn:hover {
   color: #333333;
-  background: linear-gradient(70deg, #1b9652, #56e1e9, #5b58eb);
+  background: #6dd49b;
 }
 
 .login-section .form-box {

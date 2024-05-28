@@ -116,6 +116,9 @@
 }
 
 /*** Navbar ***/
+.navbar .logo img {
+  scale: 150%;
+}
 .navbar-light .navbar-nav .nav-link {
   font-family: "Nunito", sans-serif;
   position: relative;
