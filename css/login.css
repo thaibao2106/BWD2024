@@ -41,7 +41,7 @@
     transform: rotate(0turn);
   }
   to {
-    transform: rotate(1turn); 
+    transform: rotate(1turn);
   }
 }
 body {
@@ -70,11 +70,10 @@ body {
 }
 
 .navbar .logo {
-display: flex;
+  display: flex;
 }
 
 .navbar .logo img {
-  
 }
 
 .navbar a {
@@ -151,6 +150,11 @@ display: flex;
   border-radius: 20px;
   overflow: hidden;
 }
+
+.header .logo {
+  scale: 20%;
+ }
+
 .item {
   position: absolute;
   top: 0;
