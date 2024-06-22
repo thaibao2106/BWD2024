@@ -1,0 +1,44 @@
+@media (max-width: 1200px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 425px) {
+  body {
+    font-size: 0.8rem;
+  }
+}
+
+.caption {
+  font-size: 2.5rem !important;
+}
+
+.hero-header {
+  background: linear-gradient(rgba(20, 20, 31, 0.7), rgba(20, 20, 31, 0.7)),
+    url(../img/dai_noi_hue_02.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about .desc_star {
+  font-size: 2rem;
+}
