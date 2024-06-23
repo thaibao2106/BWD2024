@@ -27,8 +27,12 @@
   }
 }
 
-.caption {
+.Main_caption {
   font-size: 2.5rem !important;
+}
+
+.caption {
+  font-size: 2rem;
 }
 
 .hero-header {
@@ -39,6 +43,10 @@
   background-size: cover;
 }
 
-.about .desc_star {
+.about .description {
   font-size: 2rem;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #4facfe, #8ce7fe);
 }
